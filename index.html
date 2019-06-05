@@ -15,6 +15,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--font--->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da|Open+Sans&display=swap" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
   </head>
@@ -26,40 +29,59 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+h1, h5 {
+  font-family: 'Baloo Da', cursive;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 .container-fluid, .col-md-3 {
   padding-left:0px;
   padding-right:0px;
 }
-.myButton {
-	background-color:transparent;
-	border:2px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:20px;
-	padding:10px 31px;
-	text-decoration:none;
-}
-.myButton:hover {
-	background-color:transparent;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
+  .myButton {
+  	background-color:transparent;
+  	border:2px solid #ffffff;
+  	display:inline-block;
+  	cursor:pointer;
+  	font-size:3rem;
+  	padding:10px 31px;
+  	text-decoration:none;
+    color:#fff;
+  }
+  .myButton:hover {
+  	background-color:#fff;
+    color: #000;
+  }
+
+  a:hover {
+    text-decoration: none;
+    font-weight: 900;
+  }
+
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
 
 @media (min-width: 2248.98px) and (max-width:2560px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size:65%; height:40rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size:65%; height:30rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:20%;}
-  h1 {color:#fff; font-size:4rem;}
+  .lhlogo {width:32%;}
+  h1 {color:#fff; font-size:8rem;}
   p {color:#fff; font-size:1.3rem;}
   .pad-top {padding-top:18rem;}
 }
 @media (min-width: 2048.98px) and (max-width:2248px ) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size:65%; height:32rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size:65%; height:30rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:20%;}
+  .lhlogo {width:32%;}
   h1 {color:#fff; font-size:7rem;}
   p {color:#fff; font-size:1.3rem;}
   .pad-top {padding-top:15rem;}
@@ -67,7 +89,7 @@ body {
 @media (min-width: 1450px) and (max-width: 2048px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size:70%; height:32rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size:70%; height:30rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:20%;}
+  .lhlogo {width:32%;}
   h1 {color:#fff; font-size:5rem;}
   p {color:#fff; font-size:1.3rem;}
   .pad-top {padding-top:15rem;}
@@ -75,7 +97,7 @@ body {
 @media (min-width: 1200px) and (max-width: 1449.98px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size:80%;height:28rem!important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size:80%; height:25rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:15%;}
+  .lhlogo {width:32%;}
   h1 {color:#fff; font-size:4rem;}
   p {color:#fff; font-size:1rem;}
   .pad-top {padding-top:12rem;}
@@ -83,23 +105,23 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size: 80%; height:21rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size: 80%; height:17rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:20%;}
-  h1 {color:#fff; font-size:3rem;}
+  .lhlogo {width:40%;}
+  h1 {color:#fff; font-size:6rem;}
   p {color:#fff; font-size:1.5rem;}
-  .pad-top {padding-top:27rem;}
+  .pad-top {padding-top:24rem;}
 }
 @media (min-width: 768px) and (max-width: 991.98px ) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size: 70%; height:20rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size: 70%; height:15rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:22%;}
-  h1 {color:#fff; font-size:2rem;}
+  .lhlogo {width:40%;}
+  h1 {color:#fff; font-size:4rem;}
   p {color:#fff; font-size:1rem;}
-  .pad-top {padding-top:20rem;}
+  .pad-top {padding-top:16rem;}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size: 70%; height:20rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size: 70%; height:15rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:22%;}
+  .lhlogo {width:34%;}
   h1 {color:#fff; font-size:4rem;}
   p {color:#fff; font-size:1rem;}
   .pad-top {padding-top:21rem;}
@@ -107,18 +129,18 @@ body {
 @media (max-width: 575.98px) and (min-width: 375px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size: 35%; height:13rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size: 35%; height:12rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:30%;}
-  h1 {color:#fff; font-size:2rem;}
+  .lhlogo {width:40%;}
+  h1 {color:#fff; font-size:2.5rem;}
   p {color:#fff;font-size:0.8rem;}
-  .pad-top {padding-top:13rem;}
+  .pad-top {padding-top:15rem;}
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
   .upperleft {background: url('topleft.png') no-repeat top left; background-size: 35%; height:15rem !important; top:0; position: absolute;}
   .bottomright {background: url('bottomright.png') no-repeat bottom right; background-size: 35%; height:9rem !important; bottom:0; position:absolute;}
-  .lhlogo {width:25%;}
+  .lhlogo {width:40%;}
   h1 {color:#fff; font-size:2rem;}
   p {color:#fff;font-size:0.5rem;}
-  .pad-top {padding-top:12rem;}
+  .pad-top {padding-top:10rem;}
 }
 
 </style>
@@ -154,24 +176,17 @@ body {
 <!--accents-->
 <!-- Page Content -->
 <div class="container-fluid">
-  <div class="d-flex flex-row">
-    <div class="col-lg-3 col-md-4 p-2 bd-highlight upperleft text-center">
-    </div>
-  </div>
   <div class="container pad-top">
     <div class="row">
       <div class="col-md-12 text-center">
         <img src="lhlogo.svg" class="lhlogo">
       </div>
       <div class="col-md-12 text-center p-3">
-        <h1 style="color:#fff;">GO BEYOND YOUR WILDEST DREAMS</h1>
-        <p style="color:#fff;" class="p-3">Inspired by nature. Designed for adventure. Experience LizardHead.</p>
-        <a href="#" class="myButton">youremail@email.com</a>
+        <h1 style="color:#fff;">TAKE IT OUTSIDE</h1>
+        <p style="color:#fff; margin-bottom:2rem;">Find your happy place under the stars with LizardHead</p>
+        <a href="#" class="myButton"><h5>youremail@email.com</h5></a>
       </div>
     </div>
-  </div>
-  <div class="d-flex flex-row-reverse">
-    <div class="col-lg-3 col-md-4 p-2 bd-highlight bottomright align-self-baseline"></div>
   </div>
 </div>
 <!--<div class="container">
